@@ -49,8 +49,7 @@ Herramienta de gestión de tareas que permite al usuario crear, editar, marcar c
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
     ```
----
-
+    
 ---
 
 ## Estructura de Base de Datos
@@ -58,5 +57,3 @@ Herramienta de gestión de tareas que permite al usuario crear, editar, marcar c
   - `id` (INT, PRIMARY KEY)
   - `title` (VARCHAR)
   - `completed` (BIT)
-  
----
