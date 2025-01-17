@@ -34,18 +34,29 @@ Herramienta de gestión de tareas que permite al usuario crear, editar, marcar c
 1. **Clonar el repositorio**:
    ```bash
    git clone <url-del-repositorio>
+   ```
 
 2. **Configurar la base de datos**:
    Asegúrate de tener una instancia de MySQL corriendo y crea la base de datos dbtodolist_app.
 
 3. **Configurar las credenciales en application.properties**:
-   Abre el archivo src/main/resources/application.properties y configura las credenciales de la base de datos:
+    Abre el archivo src/main/resources/application.properties y configura las credenciales de la base de datos:
+    ```properties
+    spring.application.name=todolistapp
+    spring.datasource.url=jdbc:mysql://localhost:3306/dbtodo-app
+    spring.datasource.username=root
+    spring.datasource.password=root
+    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+    ```
+---
 
-  spring.application.name=todolistapp
-  spring.datasource.url=jdbc:mysql://localhost:3306/dbtodo-app
-  spring.datasource.username=root
-  spring.datasource.password=root
-  spring.jpa.hibernate.ddl-auto=update
-  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+---
 
+## Estructura de Base de Datos
+  Tabla `tasks`:
+  - `id` (INT, PRIMARY KEY)
+  - `title` (VARCHAR)
+  - `completed` (BIT)
   
+---
