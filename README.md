@@ -2,8 +2,6 @@
 
 Herramienta de gestión de tareas que permite al usuario crear, editar, marcar como completadas y eliminar tareas.
 
----
-
 ## Tecnologías Utilizadas
 
 - **Backend**: 
@@ -19,15 +17,11 @@ Herramienta de gestión de tareas que permite al usuario crear, editar, marcar c
   - Hibernate para mapeo objeto-relacional
   - Maven para la gestión de dependencias
 
----
-
 ## Características
 
 - **Gestión de tareas**: Crear, editar, eliminar y visualizar tareas.
 - **Estado de tareas**: Las tareas pueden marcarse como completadas o pendientes.
 - **Interfaz intuitiva**: Interfaz simple y fácil de usar para gestionar tareas.
-
----
 
 ## Pasos para Ejecutar el Proyecto
 
@@ -49,8 +43,6 @@ Herramienta de gestión de tareas que permite al usuario crear, editar, marcar c
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
     ```
-    
----
 
 ## Estructura de Base de Datos
   Tabla `tasks`:
