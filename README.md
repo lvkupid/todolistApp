@@ -13,11 +13,11 @@ Aquí está una captura de pantalla del proyecto en ejecución:
 - **Backend**: 
   - Spring Boot (3.x)
   - Spring Data JPA
+  - Spring Thymeleaf
   - MySQL 5.7
   
 - **Frontend**: 
   - HTML/Bootstrap
-  - Spring Thymeleaf
     
 - **Otras Herramientas**:
   - Hibernate para mapeo objeto-relacional
