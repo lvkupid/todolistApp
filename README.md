@@ -2,6 +2,12 @@
 
 Herramienta de gestión de tareas que permite al usuario crear, editar, marcar como completadas y eliminar tareas.
 
+## Imagen del Proyecto
+
+Aquí está una captura de pantalla del proyecto en ejecución:
+
+![Vista del Proyecto](image.png)
+
 ## Tecnologías Utilizadas
 
 - **Backend**: 
